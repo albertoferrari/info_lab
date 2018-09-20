@@ -21,17 +21,17 @@ Si suppone comunque che lo studente conosca le basi dell'uso del computer e di I
 
 ### Contenuti dell’insegnamento
 1. Introduzione alla programmazione
-1.1. Programmazione strutturata
-1.2. Collezioni e flussi di dati
-1.3. Funzioni e ricorsione
-1.4. Oggetti e astrazioni
-1.5. Interfacce grafiche
+* Programmazione strutturata
+* Collezioni e flussi di dati
+* Funzioni e ricorsione
+* Oggetti e astrazioni
+* Interfacce grafiche
 
 2. Introduzione all'informatica
-2.1. Rappresentazione dei dati
-2.2. Concetto di computazione
-2.3. Sistemi di elaborazione
-2.4. Sviluppo del software
+* Rappresentazione dei dati
+* Concetto di computazione
+* Sistemi di elaborazione
+* Sviluppo del software
 
 ### Metodi didattici
 Lezioni in aula, con l'ausilio di slide rese disponibili in anticipo agli studenti. Soluzione guidata di esercizi in aula. Esercizi di programmazione in laboratorio.
