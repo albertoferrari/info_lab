@@ -6,8 +6,8 @@
 - [Presentazione](http://albertoferrari.github.io/info_lab/lezioni/ILP00-introduzione.pdf)
 
 #### Codice presentato a lezione
-- [esempi](https://github.com/albertoferrari/info_lab/codice_lezioni)
+- [esempi](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
 
 ### Esercitazioni 
-- [esercizi proposti](https://github.com/albertoferrari/info_lab/esercitazioni)
+- [esercizi proposti](https://github.com/albertoferrari/tree/master/esercitazioni)
 
