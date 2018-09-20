@@ -1,7 +1,7 @@
 ## Università di Parma
 - [Ingegneria dei Sistemi Informativi](http://cdl-isi.unipr.it/){:target="_blank"}
 
-### Programmazione di Applicazioni Software 
+### Informatica e Laboratorio di Programmazione
 - [Descrizione del corso](http://albertoferrari.github.io/info_lab/intro.html)
 - [Presentazione](http://albertoferrari.github.io/info_lab/lezioni/presentazione%20corso.pdf)
 
