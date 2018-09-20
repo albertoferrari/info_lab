@@ -9,5 +9,5 @@
 - [esempi](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
 
 ### Esercitazioni 
-- [esercizi proposti](https://github.com/albertoferrari/tree/master/esercitazioni)
+- [esercizi proposti](https://github.com/albertoferrari/info_lab/tree/master/esercitazioni)
 
