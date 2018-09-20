@@ -3,7 +3,7 @@
 
 ### Informatica e Laboratorio di Programmazione
 - [Descrizione del corso](http://albertoferrari.github.io/info_lab/intro.html)
-- [Presentazione](http://albertoferrari.github.io/info_lab/lezioni/presentazione%20corso.pdf)
+- [Presentazione](http://albertoferrari.github.io/info_lab/lezioni/ILP00-introduzione.pdf)
 
 #### Codice presentato a lezione
 - [esempi](https://github.com/albertoferrari/info_lab/tree/gh-pages/lezioni/codice_lezioni)
