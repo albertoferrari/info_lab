@@ -1,4 +1,7 @@
 ''' 
+ @author Alberto Ferrari - https://albertoferrari.github.io/
+ @license This software is free - http://www.gnu.org/licenses/gpl.html
+ 
 genera un numero “segreto” a caso tra 1 e 90
 chiede ripetutamente all'utente di immettere un numero
 finché non indovina quello generato
