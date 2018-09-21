@@ -1,4 +1,7 @@
 '''
+ @author Alberto Ferrari - https://albertoferrari.github.io/
+ @license This software is free - http://www.gnu.org/licenses/gpl.html
+ 
  il giocatore si muove su una scacchiera di 5x5 celle, partendo da un angolo
  le righe e le colonne sono numerate da 0 a 4
  un tesoro ed un mostro sono nascosti in due posizioni casuali, all'inizio del gioco
