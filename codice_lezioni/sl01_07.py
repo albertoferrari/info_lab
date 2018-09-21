@@ -1,4 +1,7 @@
 '''
+ @author Alberto Ferrari - https://albertoferrari.github.io/
+ @license This software is free - http://www.gnu.org/licenses/gpl.html
+ 
  orologio classico
  disegnare 12 tacche a raggiera, come in un orologio classico
  miglioramento: disegnare anche le tacche dei minuti, più piccole
