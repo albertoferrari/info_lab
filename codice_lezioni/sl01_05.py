@@ -1,4 +1,7 @@
 ''' 
+ @author Alberto Ferrari - https://albertoferrari.github.io/
+ @license This software is free - http://www.gnu.org/licenses/gpl.html
+ 
  dati di input: capitale iniziale, tasso d'interesse, durata investimento (anni)
  calcola il capitale dopo ogni anno
 '''
