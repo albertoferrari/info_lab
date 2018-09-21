@@ -1,4 +1,7 @@
 '''
+ @author Alberto Ferrari - https://albertoferrari.github.io/
+ @license This software is free - http://www.gnu.org/licenses/gpl.html
+ 
  legge, attraverso un ciclo, una sequenza di valori di resistenze elettriche
  la sequenza termina quando l'utente immette il valore 0
  alla fine, visualizza la resistenza equivalente,
@@ -15,4 +18,3 @@ while (res!=0):
     
 print("serie",serie)
 print("parallelo",1/parallelo)
-
