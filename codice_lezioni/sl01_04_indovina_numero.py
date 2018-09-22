@@ -20,4 +20,4 @@ while (val!=n):
         print(val,"è maggiore del numero segreto")
     val = int(input("inserisci un nuovo valore [1..90] "))
 
-print("hai indovinato! Il numero segreto è",n)    
+print("hai indovinato! Il numero segreto è",n)
