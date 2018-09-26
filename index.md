@@ -11,6 +11,9 @@
 #### Codice presentato a lezione
 - [esempi](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
 
-### Esercitazioni 
+#### Esercitazioni 
 - [esercizi proposti](https://github.com/albertoferrari/info_lab/tree/master/esercitazioni)
+
+#### Materiale didattico
+- [think python](https://github.com/albertoferrari/info_lab/documenti/thinkpython_italian.pdf)
 
