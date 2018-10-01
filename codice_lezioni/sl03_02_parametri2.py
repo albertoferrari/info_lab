@@ -5,11 +5,11 @@
  esempio funzioni (passaggio parametri)
 '''
 
-def inc(a):
+def inc(f):
     '''
     incrementa il valore di a
     '''
-    f = f +1
+    f = f + 1
     print("funzione: valore -> ",f)
 
 def main():

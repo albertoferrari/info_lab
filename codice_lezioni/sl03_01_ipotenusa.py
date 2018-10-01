@@ -10,12 +10,13 @@ def ipotenusa(cateto1: float, cateto2: float) -> float:
     restituisce la misura dell'ipotenusa di un triangolo
     rettangolo con cateti cateto1 e cateto2
     '''
-    return (cateto1 ** 2 + cateto2 ** 2) ** 0.5
+    ip = (cateto1 ** 2 + cateto2 ** 2) ** 0.5
+    return ip
 
-def main():
-    a = float(input('primo cateto = '))
-    b = float(input('secondo cateto = '))
-    c = ipotenusa(a, b)
-    print("ipotenusa =",c)
 
-main()
+a = float(input('primo cateto = '))
+b = float(input('secondo cateto = '))
+c = ipotenusa(a, b)
+print("ipotenusa =",c)
+
+
