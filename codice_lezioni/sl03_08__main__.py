@@ -2,7 +2,7 @@
  @author Alberto Ferrari - https://albertoferrari.github.io/
  @license This software is free - http://www.gnu.org/licenses/gpl.html
  
- esempio __main__
+ nome del modulo __main__
 '''
 
 def ipotenusa(cateto1: float, cateto2: float) -> float:
@@ -18,4 +18,5 @@ def main():
     c = ipotenusa(a, b)
     print("ipotenusa =",c)
 
-main()
+if __name__ == "__main__":	# solo se è il modulo principale
+	main()
