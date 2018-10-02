@@ -7,6 +7,7 @@
 - [Algoritmi](http://albertoferrari.github.io/info_lab/lezioni/ILP01-algoritmi.pdf)
 - [Python - Introduzione](http://albertoferrari.github.io/info_lab/lezioni/ILP02-python.pdf)
 - [Python - Funzioni](http://albertoferrari.github.io/info_lab/lezioni/ILP03-funzioni.pdf)
+- [Python - Oggetti](http://albertoferrari.github.io/info_lab/lezioni/ILP04-oggetti.pdf)
 
 #### Codice presentato a lezione
 - [esempi](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
