@@ -2,14 +2,7 @@
  @author Alberto Ferrari - https://albertoferrari.github.io/
  @license This software is free - http://www.gnu.org/licenses/gpl.html
  
- partire dalla classe Ball vista a lezione
-eseguire l'animazione:
-per ogni frame, chiamare il metodo move della pallina
-rappresentare un rettangolo o un cerchio nella posizione aggiornata della pallina
-modificare però il metodo move
-la pallina si sposta sempre di pochi pixel in orizzontale
-la pallina non si sposta verticalmente
-se esce dal bordo destro, ricompare al bordo sinistro e viceversa
+ movimento alieno (space invaders)
 
 '''
 import g2d
