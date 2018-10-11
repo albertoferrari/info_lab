@@ -10,7 +10,7 @@
 - [Python - Oggetti](http://albertoferrari.github.io/info_lab/lezioni/ILP04-oggetti.pdf)
 - [Python - Liste e Tuple](http://albertoferrari.github.io/info_lab/lezioni/ILP05-liste_tuple.pdf)
 - [Python - Composizione](http://albertoferrari.github.io/info_lab/lezioni/ILP06-composizione.pdf)
-- [Python - Animazione](http://albertoferrari.github.io/info_lab/lezioni/ILP07-animazione_attori.pdf)
+- [Python - Animazione](http://albertoferrari.github.io/info_lab/lezioni/ILP07-animazione.pdf)
 
 #### Codice presentato a lezione
 - [esempi](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
