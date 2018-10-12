@@ -11,6 +11,7 @@
 - [Python - Liste e Tuple](http://albertoferrari.github.io/info_lab/lezioni/ILP05-liste_tuple.pdf)
 - [Python - Composizione](http://albertoferrari.github.io/info_lab/lezioni/ILP06-composizione.pdf)
 - [Python - Animazione](http://albertoferrari.github.io/info_lab/lezioni/ILP07-animazione.pdf)
+- [Python - Ricorsione](http://albertoferrari.github.io/info_lab/lezioni/ILP08-ricorsione.pdf)
 
 #### Codice presentato a lezione
 - [esempi](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
