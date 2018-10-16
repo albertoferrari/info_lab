@@ -12,6 +12,7 @@
 - [Python - Composizione](http://albertoferrari.github.io/info_lab/lezioni/ILP06-composizione.pdf)
 - [Python - Animazione](http://albertoferrari.github.io/info_lab/lezioni/ILP07-animazione.pdf)
 - [Python - Ricorsione](http://albertoferrari.github.io/info_lab/lezioni/ILP08-ricorsione.pdf)
+- [Python - File](http://albertoferrari.github.io/info_lab/lezioni/ILP09-file.pdf)
 
 #### Codice presentato a lezione
 - [esempi](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
