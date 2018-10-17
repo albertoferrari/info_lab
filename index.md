@@ -14,6 +14,10 @@
 - [Python - Ricorsione](http://albertoferrari.github.io/info_lab/lezioni/ILP08-ricorsione.pdf)
 - [Python - File](http://albertoferrari.github.io/info_lab/lezioni/ILP09-file.pdf)
 
+### Aspetti teorici
+- [Sistema binario](http://albertoferrari.github.io/info_lab/lezioni/ILPT01-sistema binario.pdf)
+- [Algebra di Boole](http://albertoferrari.github.io/info_lab/lezioni/ILPT02-algebra di Boole.pdf)
+
 #### Codice presentato a lezione
 - [esempi](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
 
