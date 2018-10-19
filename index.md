@@ -13,6 +13,8 @@
 - [Python - Animazione](http://albertoferrari.github.io/info_lab/lezioni/ILP07-animazione.pdf)
 - [Python - Ricorsione](http://albertoferrari.github.io/info_lab/lezioni/ILP08-ricorsione.pdf)
 - [Python - File](http://albertoferrari.github.io/info_lab/lezioni/ILP09-file.pdf)
+- [Python - Strutture dati](http://albertoferrari.github.io/info_lab/lezioni/ILP10-strutture_dati.pdf)
+- [Python - Backtracking](http://albertoferrari.github.io/info_lab/lezioni/ILP11-backtracking.pdf)
 
 ### Aspetti teorici
 - [Sistema binario](http://albertoferrari.github.io/info_lab/lezioni/ILPT01-sistema-binario.pdf)
