@@ -13,14 +13,16 @@ def center(rect: (int, int, int, int)) -> (int, int):
 
 def htree(rect: (int, int, int, int), level: int):
     x, y, w, h = rect
-    if level == 0 or w < 3 or h < 3:
+    if level == 0 or w < 3 or h < 3:	#terminazione
         return
-    if level % 2 == 0:
-        rect1 = x, y, w / 2, h
-        rect2 = x + w / 2, y, w / 2, h
-    else:
-        rect1 = x, y, w, h / 2
-        rect2 = x, y + h / 2, w, h / 2
+    if level % 2 == 0:					#livello pari dimezzo larghezza
+        rect1 = x, y, w / 2, h			#primo rettangolo sn
+        rect2 = x + w / 2, y, w / 2, h	#secondo rettangolo ds
+        #print(level,'sn',rect1,'ds',rect2)	#debug
+    else:								#livello dispari dimezzo altezza
+        rect1 = x, y, w, h / 2			#alto
+        rect2 = x, y + h / 2, w, h / 2	#basso
+        #print(level,'up',rect1,'down',rect2)	#debug
 
     g2d.draw_line((255, 0, 0),
                      center(rect1), center(rect2))
