@@ -16,6 +16,9 @@
 - [Python - Strutture dati](http://albertoferrari.github.io/info_lab/lezioni/ILP10-strutture_dati.pdf)
 - [Python - Backtracking](http://albertoferrari.github.io/info_lab/lezioni/ILP11-backtracking.pdf)
 
+### C++
+- [C++ - Introduzione](http://albertoferrari.github.io/info_lab/lezioni/ILP12-C++ introduzione.pdf)
+
 ### Aspetti teorici
 - [Sistema binario](http://albertoferrari.github.io/info_lab/lezioni/ILPT01-sistema-binario.pdf)
 - [Algebra di Boole](http://albertoferrari.github.io/info_lab/lezioni/ILPT02-algebra-di-Boole.pdf)
