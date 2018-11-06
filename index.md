@@ -17,7 +17,7 @@
 - [Python - Backtracking](http://albertoferrari.github.io/info_lab/lezioni/ILP11-backtracking.pdf)
 
 ### C++
-- [C++ - Introduzione](http://albertoferrari.github.io/info_lab/lezioni/ILP12-C++_introduzione.pdf)
+- [C++ - Introduzione](http://albertoferrari.github.io/info_lab/lezioni/ILP12-Cpp_introduzione.pdf)
 
 ### Aspetti teorici
 - [Sistema binario](http://albertoferrari.github.io/info_lab/lezioni/ILPT01-sistema-binario.pdf)
