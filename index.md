@@ -25,7 +25,8 @@
 - [Dati multimediali](http://albertoferrari.github.io/info_lab/lezioni/ILPT03-dati_multimediali.pdf)
 
 #### Codice presentato a lezione
-- [esempi](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
+- [esempi Python](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
+- [esempi C++](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni_cpp)
 
 #### Esercitazioni 
 - [esercizi proposti](https://github.com/albertoferrari/info_lab/tree/master/esercitazioni)
