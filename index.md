@@ -19,6 +19,7 @@
 ### C++
 - [C++ - Introduzione](http://albertoferrari.github.io/info_lab/lezioni/ILP12-Cpp_introduzione.pdf)
 - [C++ - Strutture & Funzioni](http://albertoferrari.github.io/info_lab/lezioni/ILP13-Cpp_strutture_funzioni.pdf)
+- [C++ - stream](http://albertoferrari.github.io/info_lab/lezioni/ILP14-Cpp_stream.pdf)
 
 ### Aspetti teorici
 - [Sistema binario](http://albertoferrari.github.io/info_lab/lezioni/ILPT01-sistema-binario.pdf)
