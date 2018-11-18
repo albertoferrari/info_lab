@@ -15,12 +15,11 @@
 - [Python - File](http://albertoferrari.github.io/info_lab/lezioni/ILP09-file.pdf)
 - [Python - Strutture dati](http://albertoferrari.github.io/info_lab/lezioni/ILP10-strutture_dati.pdf)
 - [Python - Backtracking](http://albertoferrari.github.io/info_lab/lezioni/ILP11-backtracking.pdf)
-
-### C++
 - [C++ - Introduzione](http://albertoferrari.github.io/info_lab/lezioni/ILP12-Cpp_introduzione.pdf)
 - [C++ - Strutture & Funzioni](http://albertoferrari.github.io/info_lab/lezioni/ILP13-Cpp_strutture_funzioni.pdf)
 - [C++ - stream](http://albertoferrari.github.io/info_lab/lezioni/ILP14-Cpp_stream.pdf)
 - [C++ - OOP](http://albertoferrari.github.io/info_lab/lezioni/ILP15-Cpp_OOP.pdf)
+- [C++ & Python](http://albertoferrari.github.io/info_lab/lezioni/ILP16-Python&Cpp.pdf)
 
 ### Aspetti teorici
 - [Sistema binario](http://albertoferrari.github.io/info_lab/lezioni/ILPT01-sistema-binario.pdf)
