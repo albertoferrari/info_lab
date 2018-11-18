@@ -1,7 +1,4 @@
-#!/usr/bin/env python3
-
 import g2d
-
 from time import time
 
 import cppyy
@@ -48,5 +45,5 @@ class BoardGameGui:
         if self._game.finished():
             g2d.alert(self._game.message())
             g2d.exit()
-##            g2d.draw_text_centered(self._game.message(), (0, 0, 255),
-##                                   (cols * W//2, rows * H//2), H//2)
+            g2d.draw_text_centered(self._game.message(), (0, 0, 255),
+                                   (cols * W//2, rows * H//2), H//2)
