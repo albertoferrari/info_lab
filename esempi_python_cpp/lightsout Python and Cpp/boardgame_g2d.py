@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 
 import g2d
-from boardgame import BoardGame
+
 from time import time
+
+import cppyy
+cppyy.include("boardgame.h")
+from cppyy.gbl import BoardGame
 
 W, H = 40, 40
 LONG_PRESS = 0.5
