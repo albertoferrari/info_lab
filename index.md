@@ -30,6 +30,7 @@
 #### Codice presentato a lezione
 - [esempi Python](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
 - [esempi C++](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni_cpp)
+- [esempi Python & C++](https://github.com/albertoferrari/info_lab/tree/master/esempi_python_cpp)
 
 #### Esercitazioni 
 - [esercizi proposti](https://github.com/albertoferrari/info_lab/tree/master/esercitazioni)
