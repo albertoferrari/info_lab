@@ -25,7 +25,8 @@
 - [Sistema binario](http://albertoferrari.github.io/info_lab/lezioni/ILPT01-sistema-binario.pdf)
 - [Algebra di Boole](http://albertoferrari.github.io/info_lab/lezioni/ILPT02-algebra-di-Boole.pdf)
 - [Dati multimediali](http://albertoferrari.github.io/info_lab/lezioni/ILPT03-dati_multimediali.pdf)
-- [Qualità del software](http://albertoferrari.github.io/info_lab/lezioni/ILPT04-qualita_del_software.pdf.pdf)
+- [Qualità del software](http://albertoferrari.github.io/info_lab/lezioni/ILPT04-qualita_del_software.pdf)
+- [Complessità computazionale](http://albertoferrari.github.io/info_lab/lezioni/ILPT05-complessita_computazionale.pdf)
 
 #### Codice presentato a lezione
 - [esempi Python](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
