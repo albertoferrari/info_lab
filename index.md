@@ -27,6 +27,7 @@
 - [Dati multimediali](http://albertoferrari.github.io/info_lab/lezioni/ILPT03-dati_multimediali.pdf)
 - [Qualità del software](http://albertoferrari.github.io/info_lab/lezioni/ILPT04-qualita_del_software.pdf)
 - [Complessità computazionale](http://albertoferrari.github.io/info_lab/lezioni/ILPT05-complessita_computazionale.pdf)
+- [Linguaggi](http://albertoferrari.github.io/info_lab/lezioni/ILPT06-linguaggi.pdf)
 
 #### Codice presentato a lezione
 - [esempi Python](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
