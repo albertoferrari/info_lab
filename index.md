@@ -28,6 +28,8 @@
 - [Qualità del software](http://albertoferrari.github.io/info_lab/lezioni/ILPT04-qualita_del_software.pdf)
 - [Complessità computazionale](http://albertoferrari.github.io/info_lab/lezioni/ILPT05-complessita_computazionale.pdf)
 - [Linguaggi](http://albertoferrari.github.io/info_lab/lezioni/ILPT06-linguaggi.pdf)
+- [Automi](http://albertoferrari.github.io/info_lab/lezioni/ILPT07-automi.pdf)
+- [Architettura](http://albertoferrari.github.io/info_lab/lezioni/ILPT08-architettura.pdf)
 
 #### Codice presentato a lezione
 - [esempi Python](https://github.com/albertoferrari/info_lab/tree/master/codice_lezioni)
