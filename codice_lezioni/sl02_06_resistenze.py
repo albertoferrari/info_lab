@@ -18,3 +18,4 @@ while (res!=0):
     
 print("serie",serie)
 print("parallelo",1/parallelo)
+

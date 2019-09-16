@@ -2,11 +2,11 @@
  @author Alberto Ferrari - https://albertoferrari.github.io/
  @license This software is free - http://www.gnu.org/licenses/gpl.html
  
-genera un numero “segreto” a caso tra 1 e 90
-chiede ripetutamente all'utente di immettere un numero
-finché non indovina quello generato
-ad ogni tentativo, dice se il numero immesso
-è maggiore o minore del numero segreto
+ genera un numero “segreto” a caso tra 1 e 90
+ chiede ripetutamente all'utente di immettere un numero
+ finché non indovina quello generato
+ ad ogni tentativo, dice se il numero immesso
+ è maggiore o minore del numero segreto
 '''
 
 import random
@@ -20,4 +20,4 @@ while (val!=n):
         print(val,"è maggiore del numero segreto")
     val = int(input("inserisci un nuovo valore [1..90] "))
 
-print("hai indovinato! Il numero segreto è",n)
+print("hai indovinato! Il numero segreto è",n)    

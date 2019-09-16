@@ -1,4 +1,7 @@
 '''
+ @author Alberto Ferrari - https://albertoferrari.github.io/
+ @license This software is free - http://www.gnu.org/licenses/gpl.html
+ 
  genera e stampa tre numeri interi casuali: a, b, c
  ciascuno compreso tra 1 e 6
  determina e mostra qual è il minore dei tre
