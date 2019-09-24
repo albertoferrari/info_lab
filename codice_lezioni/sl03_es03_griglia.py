@@ -9,11 +9,11 @@
 
 import g2d
 
-colonne = int(input('numero colonne: '))
-righe = int(input('numero righe: '))
-
 LAR, ALT = 600, 400					# dimensione canvas
 g2d.init_canvas((LAR, ALT))
+
+colonne = int(g2d.prompt('numero colonne: '))
+righe = int(g2d.prompt('numero righe: '))
 
 w = LAR / colonne			# larghezza rettangolo
 h = ALT / righe				# altezza rettangolo
@@ -27,8 +27,9 @@ if righe > 1:
 for r in range(righe):
     for c in range(colonne):
         colore = 0, int(d_green * r), int(d_blue * c)
+        g2d.set_color(colore)
         rettangolo = int(w * c), int(h * r), int(w - 1), int(h - 1)
-        g2d.draw_rect(colore, rettangolo)
+        g2d.fill_rect(rettangolo)
 
 g2d.main_loop()
 

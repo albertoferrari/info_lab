@@ -17,7 +17,8 @@ dim = 600        # dimensione canvas
 lato = 100       # lato del quadrato
 g2d.init_canvas((dim, dim))
 
-n = int(input("numero quadrati: "))
+#n = int(input("numero quadrati: "))
+n = int(g2d.prompt("numero quadrati: "))
 
 i = 0
 while i < n:
@@ -27,7 +28,8 @@ while i < n:
     # colore
     colore = randint(0,255), randint(0,255), randint(0,255)
     # disegno
-    g2d.draw_rect(colore, (x, y, lato, lato))
+    g2d.set_color(colore)
+    g2d.fill_rect((x, y, lato, lato))
     i += 1
 
 g2d.main_loop()

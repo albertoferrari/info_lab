@@ -12,10 +12,11 @@ def update():
 	modifica il canvas
 	'''
 	global x,dx							# posizione pallina (globale)
-	g2d.fill_canvas((255, 255, 255))	# background bianco   
+	g2d.clear_canvas()					# pulizia background   
 	g2d.draw_image(image, (x, 50))		# disegna immagine posizione(x,y)
 	x = x + dx	 						# modifica ascissa immagine
-	if x<0 or x>(320-image.get_width()):
+	largImm = 20						# larghezza (e altezza immagine)
+	if x<0 or x>(320-largImm):
 		dx = -dx
 		x = x + dx
 

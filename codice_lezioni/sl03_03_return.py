@@ -2,7 +2,7 @@
  @author Alberto Ferrari - https://albertoferrari.github.io/
  @license This software is free - http://www.gnu.org/licenses/gpl.html
  
- funzione con pià valori di ritorno
+ funzione con più valori di ritorno
 '''
 
 def min_max(f):

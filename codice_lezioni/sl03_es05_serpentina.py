@@ -14,10 +14,10 @@ def update():
 	global x,dx,y						# posizione pallina (globale)
 	if y>240:
 		x = y = 0						# ritorno posizione iniziale
-	g2d.fill_canvas((255, 255, 255))	# background bianco   
+	g2d.clear_canvas()					# background vuoto   
 	g2d.draw_image(image, (x, y))		# disegna immagine posizione(x,y)
 	x = x + dx	 						# modifica ascissa immagine
-	if x<0 or x>(320-image.get_width()):
+	if x<0 or x>(320-largImm):
 		dx = -dx						# inversione orizzontale
 		y = y + dy						# discesa
 
@@ -25,4 +25,5 @@ g2d.init_canvas((320, 240))				# inizializzazione (320x200)
 image = g2d.load_image("ball.png")		# caricamento immagine
 x = y = 0								# posizione iniziale pallina
 dx = dy = 5								# spostamento verticale pallina
-g2d.main_loop(update, 1000 // 30)		# richiama funzione 30 volte al secondo
+largImm = 20							# larghezza (e altezza immagine)
+g2d.main_loop(update, 1000 // 10)		# richiama funzione 100 volte al secondo

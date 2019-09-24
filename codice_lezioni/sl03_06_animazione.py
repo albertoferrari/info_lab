@@ -12,13 +12,12 @@ def update():
 	modifica il canvas
 	'''
 	global x							# posizione pallina (globale)
-	g2d.fill_canvas((255, 255, 255))	# background bianco   
+	g2d.clear_canvas()					# pulisce background    
 	g2d.draw_image(image, (x, 50))		# disegna immagine posizione(x,y)
-	x = (x + 5) % 240          			# modifica ascissa immagine
+	x = (x + dx) % 320          		# modifica ascissa immagine
 
 g2d.init_canvas((320, 240))				# inizializzazione (320x200)
 image = g2d.load_image("ball.png")		# caricamento immagine
-x = 50									# posizione iniziale pallina
-
+x = 0									# posizione iniziale pallina
+dx = 5
 g2d.main_loop(update, 1000 // 30)	# richiama funzione 30 volte al secondo
-
