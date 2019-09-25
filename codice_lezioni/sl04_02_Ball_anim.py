@@ -9,14 +9,16 @@ import g2d
 from sl04_01_Ball import Ball, ARENA_W, ARENA_H
 
 def update():
-    g2d.fill_canvas((255, 255, 255))  # BG
+    g2d.clear_canvas()  # BG
     b1.move()
     b2.move()
-    g2d.draw_rect((0, 0, 255), b1.position())  # FG
-    g2d.draw_rect((255, 0, 0), b2.position())  # FG
+    g2d.set_color((0, 0, 255))
+    g2d.fill_rect(b1.position())  # FG
+    g2d.set_color((0, 255, 0))
+    g2d.fill_rect(b2.position())  # FG
     
 b1 = Ball(40, 80)
-b2 = Ball(80, 40, 12, 23)
+b2 = Ball(80, 40, 3, 2)
 
 def main():
 	g2d.init_canvas((ARENA_W, ARENA_H))

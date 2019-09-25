@@ -2,15 +2,7 @@
  @author Alberto Ferrari - https://albertoferrari.github.io/
  @license This software is free - http://www.gnu.org/licenses/gpl.html
  
- partire dalla classe Ball vista a lezione
-eseguire l'animazione:
-per ogni frame, chiamare il metodo move della pallina
-rappresentare un rettangolo o un cerchio nella posizione aggiornata della pallina
-modificare però il metodo move
-la pallina si sposta sempre di pochi pixel in orizzontale
-la pallina non si sposta verticalmente
-se esce dal bordo destro, ricompare al bordo sinistro e viceversa
-
+ movimento orizzontale
 '''
 import g2d
 from random import randrange
@@ -43,12 +35,16 @@ class Ball:
 		return int(self._w)
 
 def random_color():
+	'''
+	restituisce un colore casuale 
+	'''
 	return randrange(255), randrange(255), randrange(255)
 
 def update():
-	g2d.fill_canvas((255, 255, 255))  # BG
+	g2d.clear_canvas()  # BG
 	b1.move()
-	g2d.draw_circle(random_color(), b1.center(), int(b1.wide() / 2))
+	g2d.set_color(random_color())
+	g2d.fill_circle(b1.center(), int(b1.wide() / 2))
     
 b1 = Ball(40, 80)
 ARENA_W = 320			# larghezza arena

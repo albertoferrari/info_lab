@@ -23,6 +23,9 @@ class Ball:
 		self._h = 20
 
 	def move(self):
+		'''
+		sposta la pallina secondo le direzioni dx e dy
+		'''
 		if not (0 <= self._x + self._dx <= ARENA_W - self._w):
 			self._dx = -self._dx
 		if not (0 <= self._y + self._dy <= ARENA_H - self._h):
@@ -31,6 +34,9 @@ class Ball:
 		self._y += self._dy
 
 	def position(self) -> (int, int, int, int):
+		'''
+		restituisce coordinate e dimensioni della pallina
+		'''
 		return self._x, self._y, self._w, self._h
 
 

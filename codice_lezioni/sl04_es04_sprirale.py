@@ -16,8 +16,9 @@ def update():
     global raggio
     x = int(centro + raggio * math.cos(raggio * math.pi / 32))	
     y = int(centro + raggio * math.sin(raggio * math.pi / 32))
-    g2d.fill_canvas((255, 255, 255))
-    g2d.draw_circle((255 - raggio, 0, raggio), (x, y), int(raggio / 2))
+    g2d.clear_canvas()
+    g2d.set_color((255 - raggio, 0, raggio))
+    g2d.fill_circle((x, y), int(raggio / 2))
     raggio = (raggio + 1) % n
 
 def main():

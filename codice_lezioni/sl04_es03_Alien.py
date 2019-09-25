@@ -38,9 +38,9 @@ class Alien:
 		return int(self._w)
 
 def update():
-	g2d.fill_canvas((255, 255, 255))  # BG
+	g2d.clear_canvas()  # BG
 	b1.move()
-	g2d.draw_circle((0, 0, 255), b1.center(), int(b1.wide() / 2))
+	g2d.fill_circle(b1.center(), int(b1.wide() / 2))
     
 b1 = Alien(0, 0)
 ARENA_W = 320			# larghezza arena
@@ -48,7 +48,7 @@ ARENA_H = 240			# altezza arena
 
 def main():
 	g2d.init_canvas((ARENA_W, ARENA_H))
-	g2d.main_loop(update, 1000 // 30)  # Millis
-
+	g2d.set_color((0, 0, 255))
+	g2d.main_loop(update)  
 if __name__ == "__main__":	# solo se è il modulo principale
 	main()
