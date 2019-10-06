@@ -16,31 +16,31 @@ g = Ghost(arena, 120, 80)
 turtle = Turtle(arena, 80, 80)
 sprites = g2d.load_image("sprites.png")
 
+
 def update():
-    arena.move_all()  # Game logic
-
-    g2d.fill_canvas((255, 255, 255))
-    for a in arena.actors():
-        g2d.draw_image_clip(sprites, a.position(), a.symbol())
-
-def keydown(code):
-    #print(code + " dn")
-    if code == "ArrowUp":
-        turtle.go_up()
-    elif code == "ArrowDown":
-        turtle.go_down()
-    elif code == "ArrowLeft":
-        turtle.go_left()
-    elif code == "ArrowRight":
-        turtle.go_right()
-
-def keyup(code):
-    #print(code + " up")
-    turtle.stay()
+	if g2d.key_pressed("ArrowUp"):
+		turtle.go_up()
+	elif g2d.key_pressed("ArrowRight"):
+		turtle.go_right()
+	elif g2d.key_pressed("ArrowDown"):
+		turtle.go_down()
+	elif g2d.key_pressed("ArrowLeft"):
+		turtle.go_left()
+	elif (g2d.key_released("ArrowUp") or
+			g2d.key_released("ArrowRight") or
+			g2d.key_released("ArrowDown") or
+			g2d.key_released("ArrowLeft")):
+		turtle.stay()
+	arena.move_all()  # Game logic
+	g2d.clear_canvas()
+	for a in arena.actors():
+		if a.symbol != (0, 0, 0, 0):
+			g2d.draw_image_clip(sprites, a.symbol(), a.position())
+		else:
+			g2d.fill_rect(a.position())
 
 def main():
-    g2d.init_canvas(arena.size())
-    g2d.handle_keyboard(keydown, keyup)
-    g2d.main_loop(update, 1000 // 30)
-    
+	g2d.init_canvas(arena.size())
+	g2d.main_loop(update)
+
 main()
