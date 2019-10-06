@@ -19,7 +19,16 @@ class Punto:
 		self._y = y
 
 	def coordinate(self) -> (float, float):
+		'''
+		coordinate del punto
+		'''
 		return self._x, self._y
+		
+	def __str__(self) -> str:
+		'''
+		rappresentazione del punto
+		'''
+		return "("+str(self._x)+","+str(self._y)+")"
 		
 	def distanza_origine(self) -> float:
 		'''
@@ -41,10 +50,12 @@ def main():
 	x , y = p1.coordinate()
 	# x = p1.coordinate()[0]
 	# y = p1.coordinate()[1]
-	print('punto (',x,',',y,')',end = ' ')
+	print(p1,end=' ')
+	#print('punto (',x,',',y,')',end = ' ')
 	print("dista dall'origine",p1.distanza_origine())
 	p2 = Punto(5,5)
-	print('punto (',p1.coordinate()[0],',',p1.coordinate()[1],')',end = ' ')
+	print(p2,end=' ')
+	#print('punto (',p1.coordinate()[0],',',p1.coordinate()[1],')',end = ' ')
 	print("dista dal punto",p2.coordinate(),p1.distanza_punto(p2))
 	
 if __name__ == "__main__":	# solo se è il modulo principale
