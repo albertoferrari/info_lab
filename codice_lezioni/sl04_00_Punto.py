@@ -28,7 +28,7 @@ class Punto:
 		'''
 		rappresentazione del punto
 		'''
-		return "("+str(self._x)+","+str(self._y)+")"
+		return "(" + str(self._x) + "," + str(self._y) + ")"
 		
 	def distanza_origine(self) -> float:
 		'''

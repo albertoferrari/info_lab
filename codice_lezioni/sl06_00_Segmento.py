@@ -30,13 +30,13 @@ class Segmento:
 		'''
 		rappresentazione del segmento
 		'''
-		return str(self._p1) + "-" + str(self._p2)
+		return "[" + str(self._p1) + " - " + str(self._p2) + "]"
 
 def main():
 	p1 = Punto(3,4)
 	p2 = Punto(5,5)
 	s = Segmento(p1,p2)
-	print("lunghezza segmento" + str(s) + " = " + str(s.lunghezza()))
+	print("lunghezza segmento", s, " = ", s.lunghezza())
 	
 if __name__ == "__main__":	# solo se è il modulo principale
 	main()
