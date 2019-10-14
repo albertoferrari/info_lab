@@ -24,8 +24,7 @@ def htree(rect: (int, int, int, int), level: int):
         rect2 = x, y + h / 2, w, h / 2	#basso
         #print(level,'up',rect1,'down',rect2)	#debug
 
-    g2d.draw_line((255, 0, 0),
-                     center(rect1), center(rect2))
+    g2d.draw_line(center(rect1), center(rect2))
     htree(rect1, level - 1)
     htree(rect2, level - 1)
 
@@ -37,6 +36,7 @@ if __name__ == '__main__':
 	side = 600
 
 	g2d.init_canvas((side, side))
+	g2d.set_color((0,0,0))
 	htree((0, 0, side, side), level)
 
 	g2d.main_loop()
