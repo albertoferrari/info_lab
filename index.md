@@ -15,6 +15,7 @@
 - [Python - File](http://albertoferrari.github.io/info_lab/lezioni/ILP09-file.pdf)
 - [Python - Strutture dati](http://albertoferrari.github.io/info_lab/lezioni/ILP10-strutture_dati.pdf)
 - [Python - Backtracking](http://albertoferrari.github.io/info_lab/lezioni/ILP11-backtracking.pdf)
+- [Python - Board Games](http://albertoferrari.github.io/info_lab/lezioni/ILP11game-boardgame.pdf)
 - [C++ - Introduzione](http://albertoferrari.github.io/info_lab/lezioni/ILP12-Cpp_introduzione.pdf)
 - [C++ - Strutture & Funzioni](http://albertoferrari.github.io/info_lab/lezioni/ILP13-Cpp_strutture_funzioni.pdf)
 - [C++ - stream](http://albertoferrari.github.io/info_lab/lezioni/ILP14-Cpp_stream.pdf)
