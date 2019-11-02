@@ -34,7 +34,7 @@ def update():
 	arena.move_all()  # Game logic
 	g2d.clear_canvas()
 	for a in arena.actors():
-		if a.symbol != (0, 0, 0, 0):
+		if a.symbol() != (0, 0, 0, 0):
 			g2d.draw_image_clip(sprites, a.symbol(), a.position())
 		else:
 			g2d.fill_rect(a.position())
