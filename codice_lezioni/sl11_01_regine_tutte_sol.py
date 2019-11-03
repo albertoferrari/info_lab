@@ -49,7 +49,7 @@ def posiziona_regine(scacchiera: list, r=0):
 		for c in range(len(scacchiera)):
 			if not sotto_attacco(scacchiera, c, r):
 				scacchiera[r] = c  # possibile inserire regina in colonna c
-				# passaggio alla riha successiva
+				# passaggio alla riga successiva
 				if posiziona_regine(scacchiera, r + 1):
 					return True
 

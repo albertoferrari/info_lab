@@ -1,4 +1,3 @@
-
 '''
  @author Alberto Ferrari - https://albertoferrari.github.io/
  @license This software is free - http://www.gnu.org/licenses/gpl.html
@@ -46,7 +45,7 @@ def posiziona_regine(scacchiera: list, r=0) -> bool:
 	for c in range(len(scacchiera)):
 		if not sotto_attacco(scacchiera, c, r):
 			scacchiera[r] = c  # possibile inserire regina in colonna c
-			# passaggio alla riha successiva
+			# passaggio alla riga successiva
 			if posiziona_regine(scacchiera, r + 1):
 				return True
 
