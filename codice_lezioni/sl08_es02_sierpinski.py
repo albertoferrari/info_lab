@@ -18,7 +18,7 @@ def sierpinski(x0, y0, w0, h0, livello):
 			x1 = x0 + x * w1		#calcolo posizione
 			y1 = y0 + y * h1
 			if x == 1 and y == 1:		#disegno quadrato centrale
-				g2d.fill_rect((x1, y1, w1, h1))
+				g2d.draw_rect((x1, y1), (w1, h1))
 			else:
 				sierpinski(x1, y1, w1, h1, livello - 1) #altri quadrati
 
@@ -32,6 +32,7 @@ if __name__ == '__main__':
 	sierpinski(0, 0, lato, lato, livello)
 
 	g2d.main_loop()
+
 
 
 
